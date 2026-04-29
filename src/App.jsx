@@ -141,13 +141,13 @@ function SectionHeading({ eyebrow, title, desc, isDark }) {
   );
 }
 
-export default function AlgorionCapitalPremiumLanding() {
+export default function FX369PremiumLanding() {
   const [scrolled, setScrolled] = useState(false);
   const [theme, setTheme] = useState("dark");
 
-  const loginUrl = "https://portal.algorioncapital.com/user/login";
-  const signupUrl = "https://portal.algorioncapital.com/user/register";
-  const contactUrl = "https://portal.algorioncapital.com/contact";
+  const loginUrl = "https://portal.FX369.com/user/login";
+  const signupUrl = "https://portal.FX369.com/user/register";
+  const contactUrl = "https://portal.FX369.com/contact";
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -196,7 +196,7 @@ export default function AlgorionCapitalPremiumLanding() {
       <a href="#home" className="flex items-center gap-3 group min-w-0">
         <img
           src={logo}
-          alt="FX369 logo"
+          alt="FX369"
           className="h-10 md:h-12 w-auto object-contain"
         />
 
@@ -649,7 +649,7 @@ export default function AlgorionCapitalPremiumLanding() {
                   >
                     Join thousands of traders worldwide and experience the power of
                     precision trading with a landing page crafted to match the
-                    energy of the FX369 logo.
+                    energy of the FX369.
                   </p>
                 </div>
 
@@ -759,7 +759,7 @@ export default function AlgorionCapitalPremiumLanding() {
 
   <img
     src={logo}
-    alt="FX369 logo"
+    alt="FX369"
     className="h-12 md:h-14 w-auto object-contain"
   />
 
@@ -793,7 +793,7 @@ export default function AlgorionCapitalPremiumLanding() {
 
               <div className="mt-8 grid sm:grid-cols-2 gap-4 max-w-3xl">
                 {[
-                  [<Mail className="h-5 w-5 text-yellow-300  mt-1" />, "Email", "support@algorioncapital.com"],
+                  [<Mail className="h-5 w-5 text-yellow-300  mt-1" />, "Email", "support@FX369.com"],
                   [<Phone className="h-5 w-5 text-yellow-300  mt-1" />, "Support", "24/5 Client Assistance"],
                   [<Globe className="h-5 w-5 text-yellow-300  mt-1" />, "Markets", "Forex, Metals, Indices"],
                   [<MapPin className="h-5 w-5 text-yellow-300  mt-1" />, "Contact", "Get in touch through your support page"],
